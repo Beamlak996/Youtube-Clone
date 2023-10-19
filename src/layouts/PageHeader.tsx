@@ -36,7 +36,7 @@ export function PageHeader() {
             <ArrowLeft />
           </Button>
         )}
-        <div className="flex flex-grow max-w-[600px]">
+        <div className="flex flex-grow max-w-[600px] h-12">
           <input
             type="search"
             placeholder="Search"
