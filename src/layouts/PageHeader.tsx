@@ -1,5 +1,5 @@
 import { ArrowLeft, Bell, Menu, Mic, Search, Upload, User } from "lucide-react";
-import logo from "../assets/show-logos_transparent.png";
+import logo from "../assets/show-logos.jpeg";
 import  Button  from "../components/Button";
 import { useState } from "react";
 
@@ -16,8 +16,9 @@ export function PageHeader() {
         <Button variant="ghost" size="icon">
           <Menu />
         </Button>
-        <a href="/">
-          <img src={logo} className="h-16" />
+        <a href="/" className="flex items-center gap-2">
+          <img src={logo} className="h-8 object-cover rounded-md" />
+          <span className="font-bold">ShowTube</span>
         </a>
       </div>
       <form
